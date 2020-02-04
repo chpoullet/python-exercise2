@@ -6,7 +6,7 @@ from random import randint
 
 secret_num = randint(0, 10)
 
-print('Hello there, please choose a number between 0-10!')
+print('Hello there, please choose a number between 0-10:')
 user_num = int(input())
 
 if user_num == secret_num:
