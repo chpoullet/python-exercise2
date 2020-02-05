@@ -4,9 +4,9 @@ from random import randint
 # equate something
 # As a user, I want to be able to guess a number and know if i got it correct or not, so that I can know if I won or not.
 
-secret_num = randint(0, 10)
+secret_num = randint(1, 10)
 
-print('Hello there, please choose a number between 0-10:')
+print('Hello there, please choose a number between 1-10!')
 user_num = int(input())
 
 if user_num == secret_num:
